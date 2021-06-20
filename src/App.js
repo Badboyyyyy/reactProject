@@ -4,6 +4,8 @@ import './App.css';
 import Header from './Header';
 import Cart from './Cart';
 import Note from './Note';
+import CompA from './CompA';
+import CompC from './CompC';
 import { useState } from 'react';
 
 const App = () => {
@@ -46,6 +48,8 @@ const App = () => {
       })
     }
     </div>
+    <CompA />
+    <CompC />
     </>
   );
 }
